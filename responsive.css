@@ -1,0 +1,30 @@
+/* phone */
+@media screen and (max-width: 670px) {
+    .timer-wrapper {
+        width: 80%;
+        height: 100px;
+    }
+
+    .timer-content {
+        padding-top: 35px;
+    }
+
+    .timer-clock {
+        font-size: 30px;
+    }
+
+    button {
+        padding: 10px;
+        background-color: transparent;
+        border: 0 solid transparent;
+        border-bottom: 5px solid #ff6a08;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition-duration: 0.5s;
+    }
+    
+    button:hover {
+        font-size: 20px;
+    }
+}
